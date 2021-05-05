@@ -12,6 +12,6 @@
   "author": "Tushar S",
   "license": "",
   "peerDependencies": {
-    "react-native": "^0.56.0"
+    "react-native": ">=0.56.0"
   }
 }
