@@ -1,17 +1,17 @@
-Pod::Spec.new do |s|
-  s.name         = "RNAirplay"
-  s.version      = "1.0.0"
-  s.summary      = "RNAirplay"
-  s.description  = <<-DESC
-                  RNAirplay
-                   DESC
-  s.homepage     = ""
-  s.license      = "MIT"
-  s.author       = { "author" => "author@domain.cn" }
-  s.homepage     = "  https://github.com/SystangoTechnologies/react-native-airplay.git"
-  s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/author/RNAirplay.git", :tag => "master" }
-  s.source_files = "RNAirplay/**/*.{h,m}"
-  s.requires_arc = true
-  s.dependency "React"
-end
+{
+  "name": "react-native-airplay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "Tushar S",
+  "license": "",
+  "peerDependencies": {
+    "react-native": ">=0.56.0"
+  }
+}
